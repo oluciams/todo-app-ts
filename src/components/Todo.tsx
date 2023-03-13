@@ -1,4 +1,3 @@
-import React from 'react'
 import { type TodoId, type Todo as TodoType } from '../types'
 
 interface Props extends TodoType {
@@ -34,7 +33,7 @@ export const Todo: React.FC<Props> = ({
       <label>{title}</label>
       <button
         className="destroy"
-        onChange={() => {
+        onClick={() => {
           handleRemove({ id })
         }}
       />

@@ -51,7 +51,7 @@ const App: React.FC = () => {
         handleCompleted={handleCompleted}
       />
     </div>
-  );
+  )
 }
 
 export default App
